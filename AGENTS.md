@@ -2,11 +2,11 @@
 
 Follow the following recommendations.
 
-<div style="text-align: center; border: 1px solid;">
-  <div style="display: inline-block; padding: 8px; font-weight: bold;">
-    Code Design
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <td><strong>Code Design</strong></td>
+  </tr>
+</table>
 
 **DO** use guard clauses and early returns.
 ```tsx
@@ -158,11 +158,11 @@ function makeRecipe() {
 - This could result in moving `if` or `switch` blocks up or down the call stack.
 - This could result in moving `try-catch` blocks up or down the call stack.
 
-<div style="text-align: center; border: 1px solid;">
-  <div style="display: inline-block; padding: 8px; font-weight: bold;">
-    Function Design
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <td><strong>Function Design</strong></td>
+  </tr>
+</table>
 
 **DO** write typed functions.
 ```tsx
@@ -265,11 +265,11 @@ Partition the program into responsibilities with as clear boundaries as possible
 
 Decide the main entities of the program and heavily document their properties and constraints.
 
-<div style="text-align: center; border: 1px solid;">
-  <div style="display: inline-block; padding: 8px; font-weight: bold;">
-    Test Design
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <td><strong>Test Design</strong></td>
+  </tr>
+</table>
 
 **AVOID** redundant tests
 ```tsx
