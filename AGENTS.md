@@ -226,11 +226,11 @@ function addFutureEvent(date) {
 }
 ```
 
-<div style="text-align: center; border: 1px solid;">
-  <div style="display: inline-block; padding: 8px; font-weight: bold;">
-    Program Design
-  </div>
-</div>
+<table align="center">
+  <tr>
+    <td><strong>Program Design</strong></td>
+  </tr>
+</table>
 
 **DO** use Functional Core, Imperative Shell designs.
 - Push state and side effects up to the top level of the program.
