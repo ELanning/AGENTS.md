@@ -257,13 +257,13 @@ function main() {
 }
 ```
 
-Partition the program into responsibilities with as clear boundaries as possible.
+**DO** partition the program into responsibilities with as clear boundaries as possible.
 
 - In a video game, the render engine has no knowledge of the game's business logic.
 - Model, view, controller is a standard separation of concern for UI.
 - Accounting software might have a general math library that the tax portion uses, but does not mix with tax specific domain logic.
 
-Decide the main entities of the program and heavily document their properties and constraints.
+**DO** decide the main entities of the program and heavily document their properties and constraints.
 
 <table align="center">
   <tr>
